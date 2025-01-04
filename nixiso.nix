@@ -18,6 +18,7 @@
     trusted-users = [ "root" ];
   };
 
+  isoImage.isoName = "nixiso.iso";
   zramSwap.enable = true;
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
