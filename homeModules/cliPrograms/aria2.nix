@@ -1,8 +1,13 @@
 {
+  config,
+  ...
+}:
+
+{
   programs.aria2 = {
     enable = true;
     settings = {
-      dir = "~/Downloads";
+      dir = "${config.home.homeDirectory}/Downloads";
       split = 4;
       max-connection-per-server = 4;
       file-allocation = "falloc";
