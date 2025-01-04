@@ -3,7 +3,7 @@ name: Build and Release ISO Images
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 1,16 * *" # Run on the 1st and 16th of every month at 3:00 AM
+    - cron: "0 3 1,8,16,24 * *"
 
 jobs:
   build-nixiso:
