@@ -1,4 +1,5 @@
 {
+  lib,
   pkgs,
   modulesPath,
   ...
@@ -18,7 +19,7 @@
     trusted-users = [ "root" ];
   };
 
-  isoImage.isoName = "nixiso.iso";
+  isoImage.isoName = lib.mkForce "nixiso.iso";
   zramSwap.enable = true;
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
