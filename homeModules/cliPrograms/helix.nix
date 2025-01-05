@@ -23,10 +23,6 @@
         insert = "bar";
         select = "underline";
       };
-      whitespace.render = {
-        space = "all";
-        tab = "all";
-      };
     };
 
     extraPackages = with pkgs; [
