@@ -104,13 +104,15 @@
 
   fonts.packages = with pkgs; [
     noto-fonts
-    noto-fonts-cjk-sans
+    noto-fonts-cjk
+    noto-noto-fonts-emoji
     nerd-fonts.jetbrains-mono
   ];
 
   environment.systemPackages = with pkgs; [
     aria2
     btop
+    btrfs-progs
     curl
     fastfetch
     fzf
