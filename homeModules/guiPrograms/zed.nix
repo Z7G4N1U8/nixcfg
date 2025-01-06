@@ -18,6 +18,7 @@
       buffer_font_fallbacks = [ "Nerd Font" ];
       buffer_font_size = 16;
       buffer_font_weight = 400; # between 100 and 900
+      ui_font_size = 20;
       languages.Nix = {
         language_servers = [
           "nixd"
@@ -25,6 +26,7 @@
         ];
         formatter.external.command = "${lib.getExe pkgs.nixfmt-rfc-style}";
       };
+      lsp.inlay_hints.enabled = true;
       lsp.nixd.settings = {
         nixpkgs.expr = "import (builtins.getFlake \"/home/${user.name}/nixcfg\").inputs.nixpkgs { }   ";
         options = {
