@@ -23,6 +23,7 @@
   };
 
   home.packages = with pkgs; [
+    catppuccinifier-cli
     celluloid
     fragments
     nautilus
