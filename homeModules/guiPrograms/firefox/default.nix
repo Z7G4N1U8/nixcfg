@@ -1,17 +1,10 @@
 {
-  inputs,
-  pkgs,
-  ...
-}:
-
-{
   imports = [
     ./bookmarks.nix
     ./extensions.nix
     ./policies.nix
     ./searchEngines.nix
     ./settings.nix
-    ./userChrome.nix
   ];
 
   programs.firefox = {

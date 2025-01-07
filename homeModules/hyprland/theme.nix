@@ -1,9 +1,6 @@
 {
-  config,
-  lib,
   pkgs,
   inputs,
-  user,
   ...
 }:
 
@@ -58,6 +55,11 @@
     targets = {
       gtk.enable = true;
       gnome.enable = true;
+      firefox = {
+        enable = true;
+        firefoxGnomeTheme.enable = true;
+        profileNames = [ "default" ];
+      };
     };
   };
 
