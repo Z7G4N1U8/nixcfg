@@ -8,7 +8,7 @@
   programs.helix = {
 
     enable = true;
-    defaultEditor = true;
+    defaultEditor = false;
 
     settings.editor = {
       mouse = false;

@@ -5,6 +5,7 @@
     ./home-manager.nix
     ./hyprland.nix
     ./kanata.nix
+    ./nvf.nix
     ./virtualisation.nix
   ];
 }
