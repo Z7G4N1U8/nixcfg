@@ -73,8 +73,8 @@ in
     };
 
     decoration = {
-      rounding = 0;
-      rounding_power = 4.0;
+      rounding = 12;
+      rounding_power = 2.0;
       blur.enabled = false;
       shadow.enabled = false;
     };
