@@ -80,6 +80,8 @@
         markdown.enable = true;
         bash.enable = true;
         css.enable = true;
+        clang.enable = true;
+        python.enable = true;
         rust.enable = true;
         nix = {
           enable = true;
