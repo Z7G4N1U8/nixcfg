@@ -20,7 +20,7 @@
 
       logo = {
         preserveAspectRatio = true;
-        source = "${user.assets}/logos/nixos-logo.png";
+        source = "${user.assets}/logos/nix-cat.png";
         type = "kitty";
         height = 9;
         padding.left = 1;
