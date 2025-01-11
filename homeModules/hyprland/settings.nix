@@ -13,7 +13,7 @@ let
 
       export SWWW_TRANSITION=center
       export SWWW_TRANSITION_FPS=60
-      export SWWW_TRANSITION_STEP=10
+      export SWWW_TRANSITION_STEP=2
 
       while true; do
         IMAGE=$(find "${user.assets}/wallpapers" -type f | shuf -n 1)
