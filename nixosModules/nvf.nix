@@ -15,6 +15,7 @@
 
       viAlias = true;
       vimAlias = true;
+      preventJunkFiles = true;
 
       theme = {
         enable = true;
