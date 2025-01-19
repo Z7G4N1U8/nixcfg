@@ -19,7 +19,7 @@
     trusted-users = [ "root" ];
   };
 
-  isoImage.isoName = lib.mkForce "nixiso.iso";
+  image.baseName = lib.mkForce "NixOS";
   zramSwap.enable = true;
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
