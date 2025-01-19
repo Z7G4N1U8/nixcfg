@@ -5,7 +5,11 @@
 }:
 
 {
-  services.displayManager.ly.enable = true;
+  services.displayManager.sddm = {
+    enable = true;
+    wayland.enable = true;
+    package = pkgs.kdePackages.sddm;
+  };
 
   environment.sessionVariables.NIXOS_OZONE_WL = 1;
 
