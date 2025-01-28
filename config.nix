@@ -40,7 +40,10 @@ in
     gvfs.enable = true;
     libinput.enable = true;
     udisks2.enable = true;
-    xserver.enable = false;
+    xserver = {
+      enable = false;
+      desktopManager.gnome.enable = true;
+    };
     pipewire.enable = true;
   };
 
@@ -73,6 +76,7 @@ in
   networking = {
     hostName = "${user.host}";
     networkmanager.enable = true;
+    wireguard.enable = true;
   };
 
   hardware.bluetooth.enable = true;
@@ -126,6 +130,7 @@ in
     fastfetch
     fzf
     git
+    gnomeExtensions.paperwm
     ipman
     p7zip
     rustc
