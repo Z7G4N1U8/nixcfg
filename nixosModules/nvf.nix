@@ -17,6 +17,12 @@
       vimAlias = true;
       preventJunkFiles = true;
 
+      options = {
+        shiftwidth = 2;
+        tabstop = 2;
+        wrap = false;
+      };
+
       theme = {
         enable = true;
         name = "catppuccin";
