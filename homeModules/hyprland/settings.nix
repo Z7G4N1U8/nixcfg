@@ -58,7 +58,7 @@ in
     ];
 
     general = {
-      border_size = 3;
+      border_size = 2;
       gaps_in = 5;
       gaps_out = 12;
       layout = "dwindle";
@@ -73,7 +73,7 @@ in
     };
 
     decoration = {
-      rounding = 12;
+      rounding = 8;
       rounding_power = 2.0;
       blur.enabled = false;
       shadow.enabled = false;
