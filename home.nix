@@ -1,6 +1,7 @@
 {
   pkgs,
   user,
+  inputs,
   ...
 }:
 
@@ -31,6 +32,7 @@
     protonvpn-gui
     telegram-desktop
     vesktop
+    inputs.zen-browser.packages.${pkgs.system}.default
   ];
 
   programs.home-manager.enable = true;
