@@ -25,7 +25,6 @@
     clipse
     hyprshot
     playerctl
-    polkit_gnome
     wl-clipboard
     kdePackages.qt6ct
     kdePackages.qtwayland

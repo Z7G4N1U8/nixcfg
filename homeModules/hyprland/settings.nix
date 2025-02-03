@@ -36,7 +36,7 @@ in
 
     exec-once = [
       "clipse -listen"
-      "~/.local/state/nix/profiles/home-manager/home-path/libexec/polkit-gnome-authentication-agent-1"
+      "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1"
       "${lib.getExe random-wall}"
     ];
 
