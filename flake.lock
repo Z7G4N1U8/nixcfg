@@ -3721,7 +3721,8 @@
         "nixpkgs": "nixpkgs_4",
         "nvf": "nvf",
         "stylix": "stylix",
-        "yazi-plugins": "yazi-plugins"
+        "yazi-plugins": "yazi-plugins",
+        "zen-browser": "zen-browser"
       }
     },
     "rust-overlay": {
@@ -3976,6 +3977,26 @@
       "original": {
         "owner": "yazi-rs",
         "repo": "plugins",
+        "type": "github"
+      }
+    },
+    "zen-browser": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1738306988,
+        "narHash": "sha256-UHGuhzuxbQYcT/FOHqA+Nnu4bhoHysJYpukJJ5T0g1g=",
+        "owner": "youwen5",
+        "repo": "zen-browser-flake",
+        "rev": "c4e8d1f353ea0557020768d773daf0a05bde03aa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "youwen5",
+        "repo": "zen-browser-flake",
         "type": "github"
       }
     }
