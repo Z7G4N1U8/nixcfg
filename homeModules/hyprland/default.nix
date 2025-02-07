@@ -17,6 +17,8 @@
 
   wayland.windowManager.hyprland = {
     enable = true;
+    package = null;
+    portalPackage = null;
     systemd.variables = [ "--all" ];
   };
 
@@ -44,12 +46,6 @@
       width = 600;
       defaultTimeout = 5000;
     };
-  };
-
-  xdg.portal = {
-    enable = true;
-    extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
-    config.common.default = "*";
   };
 
 }
