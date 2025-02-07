@@ -97,7 +97,11 @@
             type = "nixfmt";
             package = pkgs.nixfmt-rfc-style;
           };
-          lsp.enable = true;
+          lsp = {
+            enable = true;
+            server = "nixd";
+          };
+          treesitter.enable = true;
         };
       };
 
