@@ -17,7 +17,7 @@
     "svg.context-properties.content.enabled" = true;
     "browser.theme.dark-private-windows" = false;
     "widget.gtk.rounded-bottom-corners.enabled" = true;
-    "gnomeTheme.hideSingleTab" = true;
+    "gnomeTheme.hideSingleTab" = false;
     "gnomeTheme.bookmarksToolbarUnderTabs" = true;
     "gnomeTheme.dragWindowHeaderbarButtons" = true;
     "gnomeTheme.oledBlack" = true;
