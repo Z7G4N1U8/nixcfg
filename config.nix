@@ -40,10 +40,7 @@ in
     gvfs.enable = true;
     libinput.enable = true;
     udisks2.enable = true;
-    xserver = {
-      enable = false;
-      desktopManager.gnome.enable = true;
-    };
+    xserver.enable = false;
     pipewire.enable = true;
   };
 
