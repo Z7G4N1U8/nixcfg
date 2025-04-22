@@ -16,9 +16,9 @@
       isDefault = true;
       search = {
         force = true;
-        default = "DuckDuckGo";
-        privateDefault = "DuckDuckGo";
-        order = [ "DuckDuckGo" ];
+        default = "ddg";
+        privateDefault = "ddg";
+        order = [ "ddg" ];
       };
     };
 

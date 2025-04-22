@@ -1,14 +1,15 @@
 {
+  lib,
   inputs,
   pkgs,
   ...
 }:
 
 {
-  imports = [ inputs.anyrun.homeManagerModules.default ];
+  #imports = [ inputs.anyrun.homeManagerModules.default ];
 
   programs.anyrun = {
-    enable = true;
+    enable = lib.mkDefault true;
 
     config = {
       x.fraction = 0.5;
@@ -22,11 +23,11 @@
       closeOnClick = true;
       plugins = with inputs.anyrun.packages.${pkgs.system}; [
         applications
-        dictionary
-        rink
+        #dictionary
+        #rink
         shell
-        symbols
-        websearch
+        #symbols
+        #websearch
       ];
     };
 

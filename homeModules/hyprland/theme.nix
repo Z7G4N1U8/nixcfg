@@ -7,7 +7,7 @@
 {
   imports = [
     inputs.stylix.homeManagerModules.stylix
-    inputs.catppuccin.homeManagerModules.catppuccin
+    inputs.catppuccin.homeModules.catppuccin
   ];
 
   catppuccin = {
