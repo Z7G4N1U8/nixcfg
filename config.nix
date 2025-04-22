@@ -90,6 +90,12 @@ in
     ];
   };
 
+  services.displayManager.sddm = {
+    enable = true;
+    wayland.enable = true;
+    package = pkgs.kdePackages.sddm;
+  };
+
   virtual.enable = true;
 
   programs.nh = {
@@ -109,7 +115,10 @@ in
       binfmt = true;
     };
     fish.enable = true;
+    hyprland.enable = true;
   };
+
+  environment.sessionVariables.NIXOS_OZONE_WL = 1;
 
   fonts.packages = with pkgs; [
     noto-fonts

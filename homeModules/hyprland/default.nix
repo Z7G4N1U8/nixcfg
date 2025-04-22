@@ -1,12 +1,10 @@
 {
   pkgs,
-  inputs,
   ...
 }:
 
 {
   imports = [
-    inputs.hyprland.homeManagerModules.default
     ./animations.nix
     ./anyrun.nix
     ./keybinds.nix
@@ -17,8 +15,6 @@
 
   wayland.windowManager.hyprland = {
     enable = true;
-    package = null;
-    portalPackage = null;
     systemd.variables = [ "--all" ];
   };
 
