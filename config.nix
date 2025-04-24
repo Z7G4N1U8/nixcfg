@@ -82,12 +82,6 @@
     ];
   };
 
-  services.displayManager.sddm = {
-    enable = true;
-    wayland.enable = true;
-    package = pkgs.kdePackages.sddm;
-  };
-
   virtual.enable = true;
 
   programs.nh = {
@@ -128,8 +122,7 @@
     fastfetch
     fzf
     git
-    gnomeExtensions.paperwm
-    ipman
+    jdk
     p7zip
     rustc
     speedtest-rs
