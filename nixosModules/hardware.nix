@@ -22,7 +22,7 @@
   boot.extraModulePackages = [ ];
 
   fileSystems."/" = {
-    device = "/dev/nvme0n1p2";
+    device = "/dev/disk/by-label/root";
     fsType = "btrfs";
     options = [
       "subvol=root"
@@ -32,7 +32,7 @@
   };
 
   fileSystems."/snap" = {
-    device = "/dev/nvme0n1p2";
+    device = "/dev/disk/by-label/root";
     fsType = "btrfs";
     options = [
       "subvol=snap"
@@ -42,7 +42,7 @@
   };
 
   fileSystems."/home" = {
-    device = "/dev/nvme0n1p2";
+    device = "/dev/disk/by-label/root";
     fsType = "btrfs";
     options = [
       "subvol=home"
@@ -51,7 +51,7 @@
   };
 
   fileSystems."/boot" = {
-    device = "/dev/nvme0n1p1";
+    device = "/dev/disk/by-label/boot";
     fsType = "vfat";
     options = [
       "fmask=0077"
