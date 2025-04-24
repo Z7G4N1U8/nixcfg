@@ -3,5 +3,6 @@
     ./cliPrograms
     ./guiPrograms
     ./hyprland
+    ./gnome
   ];
 }
