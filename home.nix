@@ -28,7 +28,6 @@
     celluloid
     fragments
     nautilus
-    ghostty
     protonvpn-gui
     telegram-desktop
     vesktop
