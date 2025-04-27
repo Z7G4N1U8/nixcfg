@@ -3,7 +3,7 @@ name: Build and Release ISO Images
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 1,16 * *"
+    - cron: "0 3 1,15 * *"
 
 jobs:
   build-nixiso:
@@ -11,14 +11,14 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@main
         with:
           lfs: false
 
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@main
 
-      - name: Build nixiso
+      - name: Build NixOS ISO
         continue-on-error: false
         run: nix build -L .#nixosConfigurations.nixiso.config.system.build.isoImage
 
