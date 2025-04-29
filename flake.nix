@@ -81,7 +81,7 @@
 
         nixiso = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs user; };
-          modules = [ ./nixiso.nix ];
+          modules = [ ./nixosModules/iso.nix ];
         };
       };
 
