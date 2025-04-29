@@ -31,7 +31,7 @@
     plugins = {
       chmod = "${inputs.yazi-plugins}/chmod.yazi";
       full-border = "${inputs.yazi-plugins}/full-border.yazi";
-      max-preview = "${inputs.yazi-plugins}/max-preview.yazi";
+      toggle-pane = "${inputs.yazi-plugins}/toggle-pane.yazi";
     };
 
     initLua = ''
@@ -42,7 +42,7 @@
       manager.prepend_keymap = [
         {
           on = "P";
-          run = "plugin max-preview";
+          run = "plugin toggle-pane max-preview";
           desc = "Maximize or restore the preview pane";
         }
         {
