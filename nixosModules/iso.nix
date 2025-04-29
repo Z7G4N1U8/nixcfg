@@ -43,6 +43,7 @@
       btop
       btrfs-progs
       curl
+      disko
       fish
       fzf
       git
