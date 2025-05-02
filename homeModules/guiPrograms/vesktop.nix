@@ -19,6 +19,7 @@
       themeLinks = [
         "https://raw.githubusercontent.com/refact0r/midnight-discord/refs/heads/master/themes/flavors/midnight-catppuccin-mocha.theme.css"
       ];
+      transparent = true;
     };
   };
 
