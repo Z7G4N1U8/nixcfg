@@ -30,7 +30,6 @@
     nautilus
     protonvpn-gui
     telegram-desktop
-    vesktop
     inputs.zen-browser.packages.${pkgs.system}.default
   ];
 
