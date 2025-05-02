@@ -7,6 +7,7 @@
     ./ipman.nix
     ./kanata.nix
     ./nvf.nix
+    ./stylix.nix
     ./virtualisation.nix
   ];
 }

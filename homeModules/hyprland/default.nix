@@ -9,7 +9,6 @@
     ./anyrun.nix
     ./keybinds.nix
     ./settings.nix
-    ./theme.nix
     ./windowrules.nix
   ];
 

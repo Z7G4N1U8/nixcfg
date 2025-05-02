@@ -5,25 +5,14 @@
 }:
 
 {
-  imports = [
-    inputs.stylix.homeManagerModules.stylix
-    inputs.catppuccin.homeModules.catppuccin
-  ];
-
-  catppuccin = {
-    enable = true;
-    accent = "blue";
-    flavor = "mocha";
-    cursors.enable = false;
-  };
+  imports = [ inputs.stylix.nixosModules.stylix ];
 
   stylix = {
     enable = true;
     autoEnable = false;
-    image = ../../assets/wallpapers/nixos-catppuccin-mocha.png;
+    image = ../assets/wallpapers/nixos-catppuccin-mocha.png;
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/catppuccin-mocha.yaml";
-    # override.base04 = "b6d1fc";
 
     cursor = {
       name = "Bibata-Modern-Classic";
@@ -39,13 +28,23 @@
     };
 
     fonts = {
+      serif = {
+        name = "Adwaita Sans";
+        package = pkgs.adwaita-fonts;
+      };
+
+      sansSerif = {
+        name = "Adwaita Sans";
+        package = pkgs.adwaita-fonts;
+      };
+
       monospace = {
         name = "JetBrainsMonoNF-SemiBold";
         package = pkgs.nerd-fonts.jetbrains-mono;
       };
 
       sizes = {
-        applications = 10;
+        applications = 11;
         desktop = 10;
         popups = 10;
         terminal = 12;
@@ -55,26 +54,6 @@
     targets = {
       gtk.enable = true;
       gnome.enable = true;
-      firefox = {
-        enable = true;
-        firefoxGnomeTheme.enable = true;
-        profileNames = [ "default" ];
-      };
     };
   };
-
-  qt = {
-    enable = true;
-    style.name = "kvantum";
-    platformTheme.name = "kvantum";
-  };
-
-  gtk = {
-    enable = true;
-    iconTheme = {
-      name = "Adwaita";
-      package = pkgs.adwaita-icon-theme;
-    };
-  };
-
 }
