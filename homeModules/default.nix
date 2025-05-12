@@ -2,7 +2,7 @@
   imports = [
     ./cliPrograms
     ./guiPrograms
-    ./hyprland
+    #./hyprland
     ./gnome
   ];
 }

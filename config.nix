@@ -27,12 +27,7 @@
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
   services = {
-    blueman.enable = true;
-    gnome.gnome-keyring.enable = true;
-    gvfs.enable = true;
     libinput.enable = true;
-    udisks2.enable = true;
-    xserver.enable = false;
     pipewire.enable = true;
   };
 
@@ -65,7 +60,6 @@
   networking = {
     hostName = "${user.host}";
     networkmanager.enable = true;
-    wireguard.enable = true;
   };
 
   hardware.bluetooth.enable = true;
@@ -82,8 +76,6 @@
     ];
   };
 
-  virtual.enable = true;
-
   programs.nh = {
     enable = true;
     flake = "/home/${user.name}/nixcfg";
@@ -96,12 +88,7 @@
 
   programs = {
     adb.enable = true;
-    appimage = {
-      enable = true;
-      binfmt = true;
-    };
     fish.enable = true;
-    hyprland.enable = true;
   };
 
   environment.sessionVariables.NIXOS_OZONE_WL = 1;
