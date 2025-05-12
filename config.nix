@@ -29,6 +29,7 @@
   services = {
     libinput.enable = true;
     pipewire.enable = true;
+    thermald.enable = true;
   };
 
   boot = {
@@ -59,7 +60,10 @@
 
   networking = {
     hostName = "${user.host}";
-    networkmanager.enable = true;
+    networkmanager = {
+      enable = true;
+      wifi.powersave = true;
+    };
   };
 
   hardware.bluetooth.enable = true;
