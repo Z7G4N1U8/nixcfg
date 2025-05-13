@@ -73,7 +73,7 @@
     isNormalUser = true;
     shell = pkgs.fish;
     extraGroups = [
-      "NetworkManager"
+      "networkmanager"
       "wheel"
       "plugdev"
       "adbusers"
