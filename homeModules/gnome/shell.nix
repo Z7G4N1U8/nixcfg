@@ -7,8 +7,9 @@
   programs.gnome-shell = {
     enable = true;
     extensions = [
-      { package = pkgs.gnomeExtensions.paperwm; }
+      { package = pkgs.gnomeExtensions.caffeine; }
       { package = pkgs.gnomeExtensions.dash-to-dock; }
+      { package = pkgs.gnomeExtensions.paperwm; }
     ];
   };
 
@@ -18,8 +19,9 @@
       "org/gnome/shell" = {
         disable-user-extensions = false;
         enabled-extensions = with pkgs.gnomeExtensions; [
+          caffeine.extensionUuid
+          dash-to-dock.extensionUuid
           paperwm.extensionUuid
-          dash-in-panel.extensionUuid
           user-themes.extensionUuid
         ];
         favorite-apps = [
