@@ -64,6 +64,7 @@
       enable = true;
       wifi.powersave = true;
     };
+    firewall.enable = false;
   };
 
   hardware.bluetooth.enable = true;
