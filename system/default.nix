@@ -5,7 +5,18 @@
 }:
 
 {
-  imports = [ ./nixosModules ];
+  imports = [
+    ./boot.nix
+    ./catppuccin.nix
+    ./gnome.nix
+    ./hardware.nix
+    ./home-manager.nix
+    ./ipman.nix
+    ./kanata.nix
+    ./nvf.nix
+    ./stylix.nix
+    ./virtualisation.nix
+  ];
 
   nix.settings = {
     accept-flake-config = true;
@@ -23,39 +34,11 @@
   };
 
   nixpkgs.config.allowUnfree = true;
-  zramSwap.enable = true;
-  boot.kernelPackages = pkgs.linuxPackages_latest;
 
   services = {
     libinput.enable = true;
     pipewire.enable = true;
     thermald.enable = true;
-  };
-
-  boot = {
-    loader = {
-      efi.canTouchEfiVariables = true;
-      grub = {
-        enable = true;
-        device = "nodev";
-        efiSupport = true;
-      };
-    };
-
-    plymouth.enable = true;
-
-    # enable silent boot
-    consoleLogLevel = 0;
-    initrd.verbose = false;
-    kernelParams = [
-      "quiet"
-      "splash"
-      "boot.shell_on_fail"
-      "loglevel=3"
-      "rd.systemd.show_status=false"
-      "rd.udev.log_level=3"
-      "udev.log_priority=3"
-    ];
   };
 
   networking = {
@@ -76,7 +59,6 @@
     extraGroups = [
       "networkmanager"
       "wheel"
-      "plugdev"
       "adbusers"
     ];
   };
@@ -95,6 +77,8 @@
     adb.enable = true;
     fish.enable = true;
   };
+
+  virtual.enable = true;
 
   environment.sessionVariables.NIXOS_OZONE_WL = 1;
 

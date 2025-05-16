@@ -1,12 +1,17 @@
 {
   pkgs,
-  user,
   inputs,
+  user,
   ...
 }:
 
 {
-  imports = [ ./homeModules ];
+  imports = [
+    ./cliPrograms
+    ./guiPrograms
+    #./hyprland
+    ./gnome
+  ];
 
   home = {
     username = "${user.name}";

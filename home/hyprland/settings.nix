@@ -75,7 +75,9 @@ in
     decoration = {
       rounding = 8;
       rounding_power = 2.0;
-      blur.enabled = false;
+      blur = {
+        enabled = true;
+      };
       shadow.enabled = false;
     };
 

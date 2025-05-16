@@ -76,12 +76,12 @@
       nixosConfigurations = {
         ${user.host} = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs user; };
-          modules = [ ./config.nix ];
+          modules = [ ./system/default.nix ];
         };
 
         nixiso = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs user; };
-          modules = [ ./nixosModules/iso.nix ];
+          modules = [ ./system/iso.nix ];
         };
       };
 
