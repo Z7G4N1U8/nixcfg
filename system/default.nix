@@ -11,6 +11,7 @@
     ./gnome.nix
     ./hardware.nix
     ./home-manager.nix
+    ./hyprland.nix
     ./ipman.nix
     ./kanata.nix
     ./nvf.nix
@@ -79,8 +80,6 @@
   };
 
   virtual.enable = true;
-
-  environment.sessionVariables.NIXOS_OZONE_WL = 1;
 
   fonts.packages = with pkgs; [
     noto-fonts
