@@ -59,8 +59,8 @@ in
 
     general = {
       border_size = 2;
-      gaps_in = 5;
-      gaps_out = 12;
+      gaps_in = 7;
+      gaps_out = 15;
       layout = "dwindle";
       "col.active_border" = "$blue";
       "col.inactive_border" = "$crust";
