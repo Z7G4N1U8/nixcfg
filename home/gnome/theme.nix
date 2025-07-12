@@ -13,6 +13,7 @@
     flavor = "mocha";
     cursors.enable = false;
     kvantum.enable = false;
+    vesktop.enable = false;
   };
 
   qt = {
