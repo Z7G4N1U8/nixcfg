@@ -36,12 +36,14 @@
     udiskie.enable = true;
     mako = {
       enable = true;
-      anchor = "top-center";
-      borderRadius = 8;
-      borderSize = 4;
-      height = 300;
-      width = 600;
-      defaultTimeout = 5000;
+      settings = {
+        anchor = "top-center";
+        borderRadius = 8;
+        borderSize = 4;
+        height = 300;
+        width = 600;
+        defaultTimeout = 5000;
+      };
     };
   };
 
