@@ -35,6 +35,7 @@
     nautilus
     protonvpn-gui
     telegram-desktop
+    varia
     inputs.zen-browser.packages.${pkgs.system}.default
   ];
 
