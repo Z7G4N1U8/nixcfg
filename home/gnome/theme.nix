@@ -14,6 +14,7 @@
     cursors.enable = false;
     kvantum.enable = false;
     vesktop.enable = false;
+    gtk.icon.enable = false;
   };
 
   qt = {
