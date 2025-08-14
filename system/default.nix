@@ -14,6 +14,7 @@
     ./hyprland.nix
     ./ipman.nix
     ./kanata.nix
+    ./moto-flasher.nix
     ./stylix.nix
     ./virtualisation.nix
   ];
