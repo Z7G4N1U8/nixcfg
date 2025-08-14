@@ -26,6 +26,7 @@
       buffer_font_size = 16;
       buffer_font_weight = 400; # between 100 and 900
       ui_font_size = 20;
+      agent_font_size = 20;
       inlay_hints.enabled = true;
       diagnostics.inline.enabled = true;
       languages.Nix = {
