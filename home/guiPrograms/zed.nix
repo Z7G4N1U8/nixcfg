@@ -14,6 +14,7 @@
     extensions = [
       "html"
       "java"
+      "live-server"
       "nix"
       "toml"
       "xml"
