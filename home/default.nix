@@ -21,17 +21,10 @@
   programs = {
     bat.enable = true;
     btop.enable = true;
-    imv.enable = true;
-    gitui.enable = true;
-    mpv.enable = true;
-    obs-studio.enable = true;
   };
 
   home.packages = with pkgs; [
-    catppuccinifier-cli
     celluloid
-    fragments
-    nautilus
     protonvpn-gui
     telegram-desktop
     varia
