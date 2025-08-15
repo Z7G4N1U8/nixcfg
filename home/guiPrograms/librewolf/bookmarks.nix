@@ -1,5 +1,5 @@
 {
-  programs.firefox.profiles.default.bookmarks = {
+  programs.librewolf.profiles.default.bookmarks = {
 
     force = true;
     settings = [

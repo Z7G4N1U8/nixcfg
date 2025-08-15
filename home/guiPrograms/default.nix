@@ -1,8 +1,8 @@
 {
   imports = [
-    ./firefox
     ./ghostty.nix
     ./kitty.nix
+    ./librewolf
     ./vesktop.nix
     ./zed.nix
   ];

@@ -1,5 +1,5 @@
 {
-  programs.firefox.profiles.default.search.engines = {
+  programs.librewolf.profiles.default.search.engines = {
 
     "Home Manager" = {
       urls = [
@@ -80,9 +80,6 @@
       ];
       definedAliases = [ "nw" ];
     };
-
-    "bing".metaData.hidden = true;
-    "google".metaData.hidden = true;
 
   };
 }
