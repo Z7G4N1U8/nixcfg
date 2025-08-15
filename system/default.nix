@@ -11,7 +11,6 @@
     ./gnome.nix
     ./hardware.nix
     ./home-manager.nix
-    ./hyprland.nix
     ./ipman.nix
     ./kanata.nix
     ./moto-flasher.nix

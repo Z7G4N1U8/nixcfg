@@ -47,16 +47,6 @@
         bookmarks = [
 
           {
-            name = "Hyprland Wiki";
-            tags = [
-              "hypr"
-              "wiki"
-            ];
-            keyword = "hw";
-            url = "https://wiki.hyprland.org";
-          }
-
-          {
             name = "YouTube";
             tags = [ "youtube" ];
             keyword = "yt";
