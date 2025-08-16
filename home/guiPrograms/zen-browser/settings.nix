@@ -1,0 +1,22 @@
+{
+  programs.zen-browser.profiles.default.settings = {
+    "zen.welcome-screen.seen" = true;
+    "dom.security.https_only_mode" = true;
+    "browser.search.separatePrivateDefault" = false;
+    "browser.contentblocking.category" = "strict";
+    "network.trr.mode" = 3;
+    "network.trr.uri" = "https://firefox.dns.nextdns.io";
+    "extensions.formautofill.creditCards.enabled" = false;
+    "signon.rememberSignons" = false;
+
+    "browser.uiCustomization.state" = ''
+      {
+        "placements":{
+          "unified-extensions-area":["ublock0_raymondhill_net-browser-action"]
+        },
+        "currentVersion":69
+      }
+    '';
+
+  };
+}

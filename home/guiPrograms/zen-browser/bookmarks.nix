@@ -1,5 +1,5 @@
 {
-  programs.librewolf.profiles.default.bookmarks = {
+  programs.zen-browser.profiles.default.bookmarks = {
 
     force = true;
     settings = [
@@ -62,7 +62,7 @@
         bookmarks = [
 
           {
-            name = "Proton Accout";
+            name = "Proton Account";
             tags = [
               "proton"
               "account"

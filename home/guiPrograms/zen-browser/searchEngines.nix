@@ -1,5 +1,5 @@
 {
-  programs.librewolf.profiles.default.search.engines = {
+  programs.zen-browser.profiles.default.search.engines = {
 
     "Home Manager" = {
       urls = [

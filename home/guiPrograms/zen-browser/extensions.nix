@@ -1,5 +1,5 @@
 {
-  programs.librewolf.policies.ExtensionSettings = {
+  programs.zen-browser.policies.ExtensionSettings = {
 
     # ClearURLs
     "{74145f27-f039-47ce-a470-a662b129930a}" = {

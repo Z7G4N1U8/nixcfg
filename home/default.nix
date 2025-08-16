@@ -1,6 +1,5 @@
 {
   pkgs,
-  inputs,
   user,
   ...
 }:
@@ -28,7 +27,6 @@
     protonvpn-gui
     telegram-desktop
     varia
-    inputs.zen-browser.packages.${pkgs.system}.default
   ];
 
   programs.home-manager.enable = true;

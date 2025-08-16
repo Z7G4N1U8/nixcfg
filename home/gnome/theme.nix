@@ -32,11 +32,6 @@
   };
 
   stylix.targets = {
-    librewolf = {
-      enable = true;
-      firefoxGnomeTheme.enable = true;
-      profileNames = [ "default" ];
-    };
     gtk.enable = true;
     gnome.enable = true;
   };

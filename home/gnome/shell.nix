@@ -25,7 +25,7 @@
           user-themes.extensionUuid
         ];
         favorite-apps = [
-          "zen.desktop"
+          "zen-beta.desktop"
           "com.mitchellh.ghostty.desktop"
           "org.telegram.desktop.desktop"
           "vesktop.desktop"
