@@ -53,6 +53,13 @@
             url = "https://youtube.com";
           }
 
+          {
+            name = "Catppuccin";
+            tags = [ "theme" ];
+            keyword = "ctp";
+            url = "https://catppuccin.com";
+          }
+
         ];
       }
 
