@@ -22,8 +22,5 @@
     };
   };
 
-  stylix.targets.zen-browser ={
-    enable = true;
-    profileNames = [ "default" ];
-  };
+  stylix.targets.zen-browser.profileNames = [ "default" ];
 }

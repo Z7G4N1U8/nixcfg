@@ -7,7 +7,6 @@
 {
   imports = [
     ./boot.nix
-    ./catppuccin.nix
     ./gnome.nix
     ./hardware.nix
     ./home-manager.nix
