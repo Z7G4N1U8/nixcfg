@@ -28,12 +28,7 @@
   };
 
   outputs =
-    {
-      self,
-      nixpkgs,
-      home-manager,
-      ...
-    }@inputs:
+    inputs:
     let
       user = {
         name = "peace";
@@ -46,12 +41,12 @@
     {
 
       nixosConfigurations = {
-        ${user.host} = nixpkgs.lib.nixosSystem {
+        ${user.host} = inputs.nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs user; };
           modules = [ ./system/default.nix ];
         };
 
-        nixiso = nixpkgs.lib.nixosSystem {
+        nixiso = inputs.nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs user; };
           modules = [ ./system/iso.nix ];
         };
