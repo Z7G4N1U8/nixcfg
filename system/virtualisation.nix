@@ -22,7 +22,7 @@
 
     services.spice-vdagentd.enable = true;
     virtualisation.spiceUSBRedirection.enable = true;
-    users.users.${user.name}.extraGroups = [ "libvirtd" ];
+    users.users.${user.name}.extraGroups = [ "kvm" "libvirtd" ];
     programs.virt-manager.enable = true;
 
     environment.systemPackages = with pkgs; [
