@@ -47,6 +47,16 @@
         bookmarks = [
 
           {
+            name = "Stremio";
+            tags = [
+              "anime"
+              "movie"
+            ];
+            keyword = "st";
+            url = "https://web.stremio.com";
+          }
+
+          {
             name = "YouTube";
             tags = [ "youtube" ];
             keyword = "yt";
