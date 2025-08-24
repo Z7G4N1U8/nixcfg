@@ -7,14 +7,10 @@
 {
   imports = [
     ./boot.nix
-    ./gnome.nix
     ./hardware.nix
-    ./home-manager.nix
-    ./ipman.nix
-    ./kanata.nix
-    ./moto-flasher.nix
-    ./stylix.nix
-    ./virtualisation.nix
+    ./modules
+    ./programs
+    ./scripts
   ];
 
   nix.settings = {
