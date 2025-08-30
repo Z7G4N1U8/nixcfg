@@ -38,7 +38,7 @@
       };
 
       monospace = {
-        name = "JetBrainsMonoNF-SemiBold";
+        name = "JetBrainsMono Nerd Font";
         package = pkgs.nerd-fonts.jetbrains-mono;
       };
 
