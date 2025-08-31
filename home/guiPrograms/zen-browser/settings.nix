@@ -8,15 +8,5 @@
     "network.trr.uri" = "https://firefox.dns.nextdns.io";
     "extensions.formautofill.creditCards.enabled" = false;
     "signon.rememberSignons" = false;
-
-    "browser.uiCustomization.state" = ''
-      {
-        "placements":{
-          "unified-extensions-area":["ublock0_raymondhill_net-browser-action"]
-        },
-        "currentVersion":69
-      }
-    '';
-
   };
 }
