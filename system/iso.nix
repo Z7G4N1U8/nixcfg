@@ -25,7 +25,8 @@
       Network Manager is enabled so you can use 'nmcli' and 'nmtui' to connect to internet.
       Do 'rfkill unblock all' to enable wireless devices that have been blocked.
       Nix-command and Flakes are also enabled.
-      You can start installation using 'nixos-install --flake github:owner/repo#config'.
+      start partitioning using 'disko --mode destroy,format,mount --flake github:owner/repo#config --yes-wipe-all-disks'.
+      start installation using 'nixos-install --flake github:owner/repo#config'.
       Some useful utilities are provided including aria2, btop, curl, disko, fzf, git, helix, tldr and yazi.
     '';
   };
