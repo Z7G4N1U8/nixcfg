@@ -18,7 +18,6 @@
       name = "default";
       id = 0;
       isDefault = true;
-      search.default = "ddg";
     };
   };
 
