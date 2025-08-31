@@ -8,9 +8,9 @@
       selection-border-size = 0;
       selection-border-radius-top = 12;
       selection-border-radius-bottom = 12;
-      window-gap = 99;
-      vertical-margin = 40;
-      vertical-margin-bottom = 40;
+      window-gap = 50;
+      vertical-margin = 20;
+      vertical-margin-bottom = 20;
       disable-topbar-styling = true;
       show-focus-mode-icon = false;
       show-open-position-icon = false;
