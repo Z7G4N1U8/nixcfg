@@ -9,6 +9,7 @@
 
   stylix = {
     enable = true;
+    autoEnable = false;
     image = ../../assets/wallpapers/nixos-catppuccin-mocha.png;
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/catppuccin-mocha.yaml";
@@ -48,6 +49,11 @@
         popups = 10;
         terminal = 12;
       };
+    };
+
+    targets = {
+      gtk.enable = true;
+      gnome.enable = true;
     };
 
   };
