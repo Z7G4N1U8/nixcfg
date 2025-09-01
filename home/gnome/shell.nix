@@ -30,6 +30,7 @@
           "com.mitchellh.ghostty.desktop"
           "org.telegram.desktop.desktop"
           "vesktop.desktop"
+          "smartcode-stremio.desktop"
           "io.github.giantpinkrobots.varia.desktop"
           "org.gnome.Nautilus.desktop"
           "org.gnome.Extensions.desktop"
