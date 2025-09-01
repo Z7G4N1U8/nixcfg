@@ -9,6 +9,7 @@
     extensions = [
       { package = pkgs.gnomeExtensions.caffeine; }
       { package = pkgs.gnomeExtensions.dash-to-dock; }
+      { package = pkgs.gnomeExtensions.boost-volume; }
       { package = pkgs.gnomeExtensions.paperwm; }
     ];
   };
