@@ -30,7 +30,12 @@
           "com.mitchellh.ghostty.desktop"
           "org.telegram.desktop.desktop"
           "vesktop.desktop"
+          "io.github.giantpinkrobots.varia.desktop"
+          "org.gnome.Nautilus.desktop"
+          "org.gnome.Extensions.desktop"
+          "protonvpn-app.desktop"
           "dev.zed.Zed.desktop"
+          "org.gnome.Settings.desktop"
         ];
       };
     };
