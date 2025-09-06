@@ -31,6 +31,19 @@
       "nbu" = "nb --update";
       "nc" = "nh clean all";
       "nck" = "nc --keep 3";
+
+      # git
+      "gc" = "git commit";
+      "gca" = "gc --amend";
+      "ga" = "git add";
+      "gaa" = "ga --all";
+      "gp" = "git push";
+      "gpf" = "gp --force";
+      "gd" = "git diff";
+      "gl" = "git log";
+      "glo" = "gl --oneline";
+      "gr" = "git reset";
+      "grh" = "gr --hard";
     };
 
     interactiveShellInit = "fastfetch";
