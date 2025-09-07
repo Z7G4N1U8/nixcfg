@@ -8,6 +8,5 @@
 
   catppuccin = {
     enable = true;
-    cache.enable = true;
   };
 }

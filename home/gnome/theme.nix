@@ -8,7 +8,6 @@
 
   catppuccin = {
     enable = true;
-    cache.enable = true;
     gtk.icon.enable = false;
     vesktop.enable = false;
   };
