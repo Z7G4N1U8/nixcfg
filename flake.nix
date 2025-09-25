@@ -41,7 +41,7 @@
     let
       user = {
         name = "peace";
-        host = "zenith";
+        host = "laptop";
         system = "x86_64-linux";
         assets = "$HOME/nixcfg/assets";
         email = "121939750+SomeEmptyBox@users.noreply.github.com";
