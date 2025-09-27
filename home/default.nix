@@ -25,7 +25,6 @@
   home.packages = with pkgs; [
     celluloid
     protonvpn-gui
-    stremio
     telegram-desktop
     varia
   ];
