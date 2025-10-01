@@ -44,7 +44,7 @@
         name = "peace";
         host = "laptop";
         system = "x86_64-linux";
-        assets = "$HOME/nixcfg/assets";
+        assets = "/home/${user.name}/nixcfg/assets";
         email = "121939750+Z7G4N1U8@users.noreply.github.com";
       };
     in
