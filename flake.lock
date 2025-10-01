@@ -143,6 +143,22 @@
         "type": "github"
       }
     },
+    "flatpak": {
+      "locked": {
+        "lastModified": 1758879050,
+        "narHash": "sha256-FaxAZGEZrKncKjV/5wy+Xv6iP1fT1vGsoMQ994lAxAs=",
+        "owner": "in-a-dil-emma",
+        "repo": "declarative-flatpak",
+        "rev": "bb69a3ffa6a03d907832fe9795abadd1b3635c5b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "in-a-dil-emma",
+        "ref": "latest",
+        "repo": "declarative-flatpak",
+        "type": "github"
+      }
+    },
     "fromYaml": {
       "flake": false,
       "locked": {
@@ -298,6 +314,7 @@
       "inputs": {
         "catppuccin": "catppuccin",
         "disko": "disko",
+        "flatpak": "flatpak",
         "home-manager": "home-manager",
         "nix-index": "nix-index",
         "nixpkgs": "nixpkgs_2",

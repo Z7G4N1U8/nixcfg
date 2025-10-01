@@ -19,6 +19,7 @@
     gnome-contacts
     gnome-logs
     gnome-maps
+    gnome-software
     gnome-weather
     gnome-music
     gnome-connections
