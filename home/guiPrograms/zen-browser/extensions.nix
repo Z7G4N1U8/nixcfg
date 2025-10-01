@@ -1,12 +1,6 @@
 {
   programs.zen-browser.policies.ExtensionSettings = {
 
-    # ClearURLs
-    "{74145f27-f039-47ce-a470-a662b129930a}" = {
-      install_url = "https://addons.mozilla.org/firefox/downloads/latest/clearurls/latest.xpi";
-      installation_mode = "normal_installed";
-    };
-
     # Proton Pass: Free Password Manager
     "78272b6fa58f4a1abaac99321d503a20@proton.me" = {
       install_url = "https://addons.mozilla.org/firefox/downloads/latest/proton-pass/latest.xpi";
