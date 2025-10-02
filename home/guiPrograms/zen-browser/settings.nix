@@ -1,6 +1,7 @@
 {
   programs.zen-browser.profiles.default.settings = {
     "zen.welcome-screen.seen" = true;
+    "zen.view.experimental-no-window-controls" = true;
     "dom.security.https_only_mode" = true;
     "browser.search.separatePrivateDefault" = false;
     "browser.contentblocking.category" = "strict";
