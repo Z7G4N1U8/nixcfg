@@ -9,10 +9,20 @@
 
   stylix = {
     enable = true;
-    autoEnable = false;
-    image = ../../assets/wallpapers/nixos-catppuccin-mocha.png;
+    autoEnable = true;
+    image = ../../assets/wallpapers/dark-star.jpg;
     polarity = "dark";
     base16Scheme = "${pkgs.base16-schemes}/share/themes/catppuccin-mocha.yaml";
+
+    override = {
+      base00 = "#161b22";
+      base01 = "#30363d";
+      base02 = "#484f58";
+      base03 = "#6e7681";
+      base04 = "#8b949e";
+      base05 = "#c9d1d9";
+      base06 = "#f0f6fc";
+    };
 
     cursor = {
       name = "Bibata-Modern-Classic";
@@ -49,11 +59,6 @@
         popups = 10;
         terminal = 12;
       };
-    };
-
-    targets = {
-      gtk.enable = true;
-      gnome.enable = true;
     };
 
   };

@@ -1,6 +1,5 @@
 {
   imports = [
-    ./catppuccin.nix
     ./disko.nix
     ./flatpak.nix
     ./home-manager.nix

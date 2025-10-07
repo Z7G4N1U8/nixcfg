@@ -3,7 +3,6 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    catppuccin.url = "github:catppuccin/nix";
     flatpak.url = "github:in-a-dil-emma/declarative-flatpak/latest";
 
     disko = {
