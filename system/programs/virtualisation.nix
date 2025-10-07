@@ -15,14 +15,15 @@
       qemu = {
         package = pkgs.qemu_kvm;
         swtpm.enable = true;
-        ovmf.enable = true;
-        ovmf.packages = [ pkgs.OVMFFull.fd ];
       };
     };
 
     services.spice-vdagentd.enable = true;
     virtualisation.spiceUSBRedirection.enable = true;
-    users.users.${user.name}.extraGroups = [ "kvm" "libvirtd" ];
+    users.users.${user.name}.extraGroups = [
+      "kvm"
+      "libvirtd"
+    ];
     programs.virt-manager.enable = true;
 
     environment.systemPackages = with pkgs; [
