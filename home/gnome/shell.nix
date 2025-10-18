@@ -1,5 +1,6 @@
 {
   pkgs,
+  user,
   ...
 }:
 
@@ -38,6 +39,13 @@
           "dev.zed.Zed.desktop"
           "org.gnome.Settings.desktop"
         ];
+      };
+      "org/gnome/desktop/interface" = {
+        color-scheme = "prefer-dark";
+      };
+      "org/gnome/desktop/background" = {
+        picture-uri = "file://${user.assets}/wallpapers/sakura-pink-sword-wallpaper.png";
+        picture-uri-dark = "file://${user.assets}/wallpapers/sakura-pink-sword-wallpaper.png";
       };
     };
   };
