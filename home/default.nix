@@ -24,8 +24,8 @@
 
   home.packages = with pkgs; [
     celluloid
+    materialgram
     protonvpn-gui
-    telegram-desktop
     varia
   ];
 
