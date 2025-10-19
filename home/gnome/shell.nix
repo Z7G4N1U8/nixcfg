@@ -8,6 +8,7 @@
   programs.gnome-shell = {
     enable = true;
     extensions = [
+      { package = pkgs.gnomeExtensions.blur-my-shell; }
       { package = pkgs.gnomeExtensions.caffeine; }
       { package = pkgs.gnomeExtensions.dash-to-dock; }
       { package = pkgs.gnomeExtensions.boost-volume; }
@@ -21,6 +22,7 @@
       "org/gnome/shell" = {
         disable-user-extensions = false;
         enabled-extensions = with pkgs.gnomeExtensions; [
+          blur-my-shell.extensionUuid
           caffeine.extensionUuid
           dash-to-dock.extensionUuid
           paperwm.extensionUuid
