@@ -9,6 +9,7 @@
     ./cliPrograms
     ./guiPrograms
     ./gnome
+    ./niri
   ];
 
   home = {
@@ -25,6 +26,7 @@
   home.packages = with pkgs; [
     celluloid
     materialgram
+    google-chrome
     protonvpn-gui
     varia
   ];
