@@ -16,6 +16,9 @@
 
     prefer-no-csd = true;
 
+    cursor.theme = "Bibata-Modern-Classic";
+    cursor.size = 20;
+
     layout = {
       gaps = 15;
       center-focused-column = "always";
