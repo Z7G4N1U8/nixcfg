@@ -5,10 +5,12 @@
 
 {
   programs.niri.settings.binds = with config.lib.niri.actions; {
-    "Mod+T".action = spawn "ghostty";
-    "Mod+E".action = spawn "nautilus";
     "Mod+A".action = spawn-sh "wofi --show drun";
-    "Mod+B".action = spawn "google-chrome-stable";
+    "Mod+B".action = spawn "zen";
+    "Mod+E".action = spawn "nautilus";
+    "Mod+T".action = spawn "ghostty";
+
+    "Mod+Shift+E".action = spawn "zeditor";
 
     "Mod+H".action = focus-column-left;
     "Mod+L".action = focus-column-right;
