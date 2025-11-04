@@ -44,10 +44,9 @@
         }
 
         {
-          key = " ";
-          type = "DE";
+          key = " ";
+          type = "wm";
           keyColor = "cyan";
-          format = "{2} {3} (Wayland)";
         }
 
         {
