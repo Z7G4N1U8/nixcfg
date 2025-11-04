@@ -15,6 +15,7 @@
     };
 
     prefer-no-csd = true;
+    spawn-at-startup = [{ argv = ["random-wall"]; }];
 
     cursor.theme = "Bibata-Modern-Classic";
     cursor.size = 20;
