@@ -55,7 +55,7 @@
         host = "laptop";
         system = "x86_64-linux";
         assets = "/home/${user.name}/nixcfg/assets";
-        email = "121939750+Z7G4N1U8@users.noreply.github.com";
+        email = "git@z7g4n1u8.dev";
       };
     in
     {
