@@ -10,7 +10,6 @@
     extensions = [
       { package = pkgs.gnomeExtensions.blur-my-shell; }
       { package = pkgs.gnomeExtensions.caffeine; }
-      { package = pkgs.gnomeExtensions.dash-to-dock; }
       { package = pkgs.gnomeExtensions.boost-volume; }
       { package = pkgs.gnomeExtensions.paperwm; }
     ];
@@ -24,22 +23,8 @@
         enabled-extensions = with pkgs.gnomeExtensions; [
           blur-my-shell.extensionUuid
           caffeine.extensionUuid
-          dash-to-dock.extensionUuid
           paperwm.extensionUuid
           user-themes.extensionUuid
-        ];
-        favorite-apps = [
-          "zen-beta.desktop"
-          "com.mitchellh.ghostty.desktop"
-          "io.github.kukuruzka165.materialgram.desktop"
-          "vesktop.desktop"
-          "smartcode-stremio.desktop"
-          "io.github.giantpinkrobots.varia.desktop"
-          "org.gnome.Nautilus.desktop"
-          "org.gnome.Extensions.desktop"
-          "protonvpn-app.desktop"
-          "dev.zed.Zed.desktop"
-          "org.gnome.Settings.desktop"
         ];
       };
       "org/gnome/desktop/interface" = {
