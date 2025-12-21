@@ -1,9 +1,4 @@
 {
-  pkgs,
-  ...
-}:
-
-{
   boot = {
     loader = {
       efi.canTouchEfiVariables = true;
@@ -15,7 +10,6 @@
     };
 
     plymouth.enable = true;
-    kernelPackages = pkgs.linuxPackages_latest;
 
     # enable silent boot
     consoleLogLevel = 0;
