@@ -2,7 +2,7 @@
   programs.zen-browser.profiles.default.search = {
 
     force = true;
-    default = "ddg";
+    default = "google";
     engines = {
 
       "Home Manager" = {
