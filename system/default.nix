@@ -95,6 +95,7 @@
     git
     jdk
     p7zip
+    payload-dumper-go
     rustc
     speedtest-rs
     tlrc
