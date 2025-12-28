@@ -5,6 +5,11 @@
     default = "google";
     engines = {
 
+      "GitHub" = {
+        urls = [{ template = "https://github.com/search?q={searchTerms}"; }];
+        definedAliases = [ "gh" ];
+      };
+
       "Home Manager" = {
         urls = [
           {
