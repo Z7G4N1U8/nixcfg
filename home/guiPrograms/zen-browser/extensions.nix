@@ -1,9 +1,9 @@
 {
   programs.zen-browser.policies.ExtensionSettings = {
 
-    # Proton Pass: Free Password Manager
-    "78272b6fa58f4a1abaac99321d503a20@proton.me" = {
-      install_url = "https://addons.mozilla.org/firefox/downloads/latest/proton-pass/latest.xpi";
+    # Bitwarden Password Manager
+    "{446900e4-71c2-419f-a6a7-df9c091e268b}" = {
+      install_url = "https://addons.mozilla.org/firefox/downloads/latest/bitwarden-password-manager/latest.xpi";
       installation_mode = "normal_installed";
       private_browsing = true;
     };
