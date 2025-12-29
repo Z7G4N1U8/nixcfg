@@ -3,6 +3,6 @@
     ./ghostty.nix
     ./vesktop.nix
     ./zed.nix
-    ./zen-browser
+    ./zen-browser.nix
   ];
 }
