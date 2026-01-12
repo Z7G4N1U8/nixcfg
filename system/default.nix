@@ -70,10 +70,7 @@
     };
   };
 
-  programs = {
-    adb.enable = true;
-    fish.enable = true;
-  };
+  programs.fish.enable = true;
 
   virtual.enable = true;
 
@@ -85,6 +82,7 @@
   ];
 
   environment.systemPackages = with pkgs; [
+    android-tools
     aria2
     btop
     btrfs-progs
